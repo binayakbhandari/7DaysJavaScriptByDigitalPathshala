@@ -29,14 +29,14 @@ const shoes = ['Gold Star', 'Adidas', 'Puma', 'Nike']
 // key: value,
 // key: value
 // }
-const me = {
-    name: "Binayak Bhandari",
-    age: "18",
-    qualification: "+2 Pass",
-    skills: "HTML, CSS, JavaScript and WordPress",
-    isNepali: true
-}
-console.log("My name is ",me.name, ". I am", me.age, "years old.")
+// const me = {
+//     name: "Binayak Bhandari",
+//     age: "18",
+//     qualification: "+2 Pass",
+//     skills: "HTML, CSS, JavaScript and WordPress",
+//     isNepali: true
+// }
+// console.log("My name is ",me.name, ". I am", me.age, "years old.")
 
 // Properties and Methods
 // If there is a variable in class then it is know as Properties.
@@ -68,10 +68,49 @@ console.log("My name is ",me.name, ". I am", me.age, "years old.")
 // firstArgument is from which index to start to remove the element.
 // secondArgument is how many elements to remove from an array.
 // shoes.splice(3, 0, 'Binayak')
-console.log(shoes.length)
-console.log(shoes)
+// console.log(shoes.length)
+// console.log(shoes)
 
 // Thank You Digital Pathshala 
 // Day 2 Code ends here.
 
 
+// This is my third day of 7 days JS Workshop.
+// const numbers = [1,2,3,4,5,6,7,8,9]
+// slice() method
+// const newNumbers = numbers.slice(0,5)
+// slice() method creates the copy of an array and does not modify the original array.
+// console.log(newNumbers)
+// splice() method
+// numbers.splice(5, 4, 404)
+// splice() method modifies the original array and helps to add the new elements in an array.
+// console.log(numbers)
+// split() method
+// const text = "I love JavaScript"
+// const newText = text.split(" ")
+// split() method is use to split the string into different element of an array and it does not mofiy the original string.
+// console.log(newText)
+// console.log(newText[0], newText[1], "Python")
+
+// #QuickPractice
+// const languages = ['JavaScript', 'Python', 'PHP', 'HTML']
+// languages.splice(3,1, "C")
+// console.log(languages)
+
+// //#QuickPractice
+// const characters = ['M','a','n','i','s','h']
+// characters.splice(0,6, 1, 2, 3, 4, 5, 6)
+// console.log(characters)
+
+const details = {
+    name: "Binayak Bhandari",
+    age: 18,
+    address: "Kathmandu"
+}
+details.school = "Nature"
+console.log(details)
+// Object.freeze(objectName) method
+Object.freeze(details)
+// Object.freeze(ObjectName) method is use to freeze an object.
+details.hobby = "Coding"
+// Now after Object.freeze() method we cannot remove or add keys and value in an object.
