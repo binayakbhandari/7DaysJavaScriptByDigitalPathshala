@@ -114,3 +114,6 @@ Object.freeze(details)
 // Object.freeze(ObjectName) method is use to freeze an object.
 details.hobby = "Coding"
 // Now after Object.freeze() method we cannot remove or add keys and value in an object.
+
+// Thank You Digital Pathshala 
+// Day 3 Code ends here.
