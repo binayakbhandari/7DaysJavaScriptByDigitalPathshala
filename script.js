@@ -5,7 +5,7 @@
 
 // console.log("Hello World")
 
-// Thank You Digital Pathshala
+// Thank You Digital Pathshala 
 // Day 1 Code ends here.
 
 
@@ -67,6 +67,11 @@ console.log("My name is ",me.name, ". I am", me.age, "years old.")
 // arrayName.splice(firstArgumnet, secondArgument, newElementName) 
 // firstArgument is from which index to start to remove the element.
 // secondArgument is how many elements to remove from an array.
-shoes.splice(3, 0, 'Binayak')
+// shoes.splice(3, 0, 'Binayak')
 console.log(shoes.length)
 console.log(shoes)
+
+// Thank You Digital Pathshala 
+// Day 2 Code ends here.
+
+
