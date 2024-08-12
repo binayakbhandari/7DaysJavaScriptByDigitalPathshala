@@ -1,15 +1,15 @@
-// This is my first day of 7 days JS Workshop.
+// This is my 1st day of 7 days JS Workshop.
 // To run the node js code enter "node filename.js"
 // To run the node js code automatically "node --watch filename.js"
 // Watch command helps to refresh and run js code automatically
 
 // console.log("Hello World")
 
-// Thank You Digital Pathshala 
 // Day 1 Code ends here.
+// Thank You Digital Pathshala 
 
 
-// This is my second day of 7 days JS Workshop.
+// This is my 2nd day of 7 days JS Workshop.
 // Variable
 // Variable is created to store or hold the value.
 // Creating variables by var, let and const
@@ -21,7 +21,7 @@
 // Array:
 // An Array is a collection of similar data that is given a common name.
 // In an array data are stored in sequencial order and easy to access.
-const shoes = ['Gold Star', 'Adidas', 'Puma', 'Nike']
+// const shoes = ['Gold Star', 'Adidas', 'Puma', 'Nike']
 // console.log("East and West", shoes[0], "is Best.")
 // Object:
 // When we have the related information about something or someone and there are differnt data types.
@@ -71,11 +71,11 @@ const shoes = ['Gold Star', 'Adidas', 'Puma', 'Nike']
 // console.log(shoes.length)
 // console.log(shoes)
 
-// Thank You Digital Pathshala 
 // Day 2 Code ends here.
+// Thank You Digital Pathshala 
 
 
-// This is my third day of 7 days JS Workshop.
+// This is my 3rd day of 7 days JS Workshop.
 // const numbers = [1,2,3,4,5,6,7,8,9]
 // slice() method
 // const newNumbers = numbers.slice(0,5)
@@ -102,18 +102,59 @@ const shoes = ['Gold Star', 'Adidas', 'Puma', 'Nike']
 // characters.splice(0,6, 1, 2, 3, 4, 5, 6)
 // console.log(characters)
 
-const details = {
-    name: "Binayak Bhandari",
-    age: 18,
-    address: "Kathmandu"
-}
-details.school = "Nature"
-console.log(details)
+// const details = {
+//     name: "Binayak Bhandari",
+//     age: 18,
+//     address: "Kathmandu"
+// }
+// details.school = "Nature"
+// console.log(details)
 // Object.freeze(objectName) method
-Object.freeze(details)
+// Object.freeze(details)
 // Object.freeze(ObjectName) method is use to freeze an object.
-details.hobby = "Coding"
+// details.hobby = "Coding"
 // Now after Object.freeze() method we cannot remove or add keys and value in an object.
 
-// Thank You Digital Pathshala 
 // Day 3 Code ends here.
+// Thank You Digital Pathshala 
+
+
+// This is my 4th day of 7 days JS Workshop.
+// The code of line between opening and closing of curly braces id known as Block of Code.
+// Conditional Statements
+// const isBusy = true
+// if(isFree){
+//     console.log("You are on the right path.")
+// }
+// else{
+//     console.log("You have been distracted.")
+// }
+
+// Ternary operator
+// isFree ? console.log("You are on the right path.") : console.log("You have been distracted.")
+
+// Short circuit
+// isBusy && console.log("You are on the right path.") // To check true statement.
+// isBusy || console.log("You have been distracted.") // To check false statement.
+
+// Nullish coelescing operator
+// const age = null
+// const result = age ?? "No age"
+// console.log("The age of the user is ",result)
+
+// Loops in JavaScript
+const names = ['Manish Sir', 'Binayak Sir', 'Saroj Sir', 'Prakash Sir']
+// For Loop
+// for(var i=0; i < names.length; i++){
+//     console.log("I am ",names[i])
+// }
+
+// For of Loop
+// for(let name of names){
+//     console.log("I am ",name)
+// }
+// This is more optimized than for loop.
+const shoes = ['Gold Star', 'Adidas', 'Nike', 'Puma']
+for(let shoe of shoes){
+    console.log("My favourite shoes brand is",shoe)
+}
