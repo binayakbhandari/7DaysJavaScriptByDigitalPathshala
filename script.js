@@ -417,3 +417,88 @@
 
 // Day 5 Code ends here.
 // Thank You Digital Pathshala 
+
+
+
+// This is my 6th day of 7 days JS Workshop.
+
+// const files = ['script.js','app.c','index.html','style.css','main.js']
+// Quick Questions
+// We have to filter the file which name ends with .js
+// const filterFiles = files.filter(function(file){
+//     return file.endsWith('.js')
+// })
+// console.log(filterFiles)
+
+// Reduce
+// It is used when we have to perform mathematical calculation.
+// We have to give two arguments i.e function and value of accumulator.
+
+// const numbers = [1,2,3,4,5,6,7,8,9,10]
+// const sum = numbers.reduce(function(accumulator,number){
+//     return number + accumulator
+// },0)
+// console.log(sum)
+
+const myCart = [
+    {
+        product : "Apple",
+        price : 200,
+        quantity : 20
+    },
+    {
+        product : "Mango",
+        price : 100,
+        quantity : 10
+    },
+    {
+        product : "Pineapple",
+        price : 400,
+        quantity : 12
+    }
+]
+
+const totalQuantityAndPrice = myCart.reduce(function(accumulator,item){
+    accumulator.totalPrice += item.quantity * item.price
+    accumulator.totalQuantity += item.quantity
+    return accumulator
+},{totalPrice : 0, totalQuantity : 0})
+
+console.log(totalQuantityAndPrice)
+
+// Quick Problem
+const students = [
+    {
+        name : "Manish",
+        marks : 700,
+        status : "pass"
+    },
+    {
+        name : "Binayak",
+        marks : 600,
+        status : "pass"
+    },
+    {
+        name : "Saroj",
+        marks : 500,
+        status : "fail"
+    },
+    {
+        name : "Prakash",
+        marks : 400,
+        status : "fail"
+    },
+    {
+        name : "Ganesh",
+        marks : 300,
+        status : "fail"
+    }
+]
+
+const result = students.filter(function(student){
+    return student.marks > 300 && student.name.endsWith("sh") && student.status == "pass"
+})
+console.log(result)
+
+// Day 6 Code ends here.
+// Thank You Digital Pathshala 
