@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Javascript TODO Project</h1>
+    <div>
+        <input type="text" id="todoInput" placeholder="Enter Todo">
+        <button onclick="addTodo()" id="todo">Submit</button>
+    </div>
+    <div>
+        <label for="searchTodo">Search: </label>
+        <input id="searchTodo" type="text" oninput="searchTodo()" placeholder="Search Todo">
+    </div>
+    <ul id="todoList"></ul>
+    <div>
+        <p>Total Tasks: <span id="totalTasks">0</span></p>
+        <p>Completed Tasks: <span id="completedTasks">0</span></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Binayak Bhandari. All rights reserved.</p>
+        <p>Thanks to Digital Pathshala</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
